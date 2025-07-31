@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.getElementById("loginForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -10,3 +11,9 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     alert("Login successful!");
   }
 });
+=======
+function toggleTheme()
+{
+    document.body.classList.toggle("dark-mode");
+}
+>>>>>>> 6d9bab0 (Day 4: Profile card with Toggle Theme)

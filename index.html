@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Password</title>
+</head>
+<body>
+    <h1>Hide Password</h1>
+    <input type="text" id="Password" placeholder="enter the Password">
+    <button onclick="toggleClick">Click Me</button>
+    <script>
+        function toggleClick()
+        {
+            const pass=document.getElementById("password");
+            pass.type=pass.type === "password" ? "text" : "password";
+        }
+    </script>
+</body>
+</html>
